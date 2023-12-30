@@ -145,10 +145,10 @@ apple = Apple()
 
 # Game Sounds
 
-death_sound = pygame.mixer.Sound('dead-8bit-41400.mp3')
+death_sound = pygame.mixer.Sound('audio/dead-8bit-41400.mp3')
 death_sound.set_volume(1.0)
 
-apple_pickup = pygame.mixer.Sound('beep3-98810.mp3')
+apple_pickup = pygame.mixer.Sound('audio/beep3-98810.mp3')
 apple_pickup.set_volume(1.0)
 
 # Main Game Loop
@@ -225,7 +225,7 @@ while True:
 
                     # Playing the game music
 
-                    mixer.music.load('026491_pixel-song-8-72675.mp3')  # Loads in the music
+                    mixer.music.load('audio/026491_pixel-song-8-72675.mp3')  # Loads in the music
                     pygame.mixer.music.play(-1)  # Loops the music
                     pygame.mixer.music.set_volume(1.0)  # Sets the music volume
 
