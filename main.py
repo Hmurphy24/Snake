@@ -42,7 +42,7 @@ class Apple:
         pygame.draw.rect(screen, apple_color, self.rect)
 
 
-def title_screen():  # Function to display the title screen message/title
+def title_screen():  # Function to display the title screen
 
     title_screen_title_surface = title_screen_font.render(f' Snake!', False, font_color)
     title_screen_title_rect = title_screen_title_surface.get_rect(center=(screen_width / 2, 100))
